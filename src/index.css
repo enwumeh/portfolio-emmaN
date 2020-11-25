@@ -10,6 +10,10 @@ body {
   height: 100vh;
 }
 
+h5 {
+  color: #64c6d1;
+}
+
 .main-container {
   width: 100%;
   height: 100%;
@@ -21,7 +25,7 @@ body {
   top: 0;
   z-index: 1;
   display: flex;
-  background: #fff;
+  background: rgb(43, 16, 73);
   flex-direction: row;
   padding: 1.2rem;
   align-items: center;
@@ -39,19 +43,20 @@ body {
 
 .logo {
   font-family: "Acme", sans-serif;
-  font-size: 1.8rem;
-  color: #55198b;
+  font-size: 2.2rem;
+  color: rgba(255, 255, 255, 0.735);
   cursor: pointer;
 }
 
 .link {
   list-style-type: none;
   float: left;
+  padding: 15px;
 }
 
 .nav-links .anchor {
   display: inline-block;
-  color: black;
+  color: rgba(255, 255, 255, 0.563);
   text-decoration: none;
   cursor: pointer;
   font-family: "Varela Round", sans-serif;
@@ -63,13 +68,13 @@ body {
 }
 
 .nav-links .anchor:hover {
-  color: #55198b;
+  color: white;
 }
 
 .anchor.active {
-  color: #55198b;
+  color: #64c6d1;
   font-weight: 800;
-  border-bottom: 2px solid #55198b;
+  border-bottom: 2px solid rgb(98, 30, 175);
 }
 
 .menu-icon {
@@ -80,14 +85,15 @@ body {
 .home-container {
   font-family: "Varela Round", sans-serif;
   display: flex;
-  color: white;
+  color: rgba(255, 255, 255, 0.836);
   flex-direction: row;
-  background-color: rgb(29, 27, 27);
+  background-color: rgb(43, 16, 73);
   height: 100%;
   padding: 1rem;
   align-items: center;
   width: 100%;
   min-height: 100vh;
+  font-size: 34px;
 }
 
 .content-container {
@@ -97,11 +103,13 @@ body {
   display: flex;
   padding: 1.8rem;
   margin-top: 3rem;
-  justify-content: center;
+  position: relative;
+    left: 200px; 
 }
 
+
 .main-content {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .skill-content {
@@ -124,6 +132,26 @@ body {
   margin: 0.9rem;
   cursor: pointer;
 }
+.svg {
+  /* height: 400px; */
+  /* width: 360px; */
+  object-position:50% 35%;
+  object-fit: scale-down;
+  /* border-radius: 50%; */
+}
+
+.email-heading {
+  font-size: 25px;
+  /* font-weight: bold; */
+}
+
+.sm-heading {
+  font-size: 25px;
+}
+
+.phone-heading {
+  font-size: 25px;
+}
 
 .welcome-content {
   color: gray;
@@ -136,10 +164,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .svg {
-  height: 75%;
+  height: 99%;
+  width: 39%;
+  margin-bottom: -65px;
+  margin-top: -2px;
+
 }
 
 /* Services */
@@ -220,7 +253,10 @@ body {
 .skills-container h1 {
   margin: 2rem 0;
 }
-
+.skills-img {
+  width: 70px;
+  height: 70px;
+}
 .techs {
   display: flex;
   align-items: center;
@@ -235,6 +271,12 @@ body {
   flex-wrap: wrap;
   margin: 2rem;
   text-align: center;
+}
+
+.ruby-icon {
+  width: 90px;
+  height: 90px;
+  mix-blend-mode: multiply;
 }
 
 .techs:hover {
@@ -270,7 +312,7 @@ body {
 }
 
 .techs .sass {
-  color: #c300ff;
+  color: #ea00ff;
 }
 
 .techs .react {
@@ -333,33 +375,26 @@ body {
 }
 
 /* Images */
-#coronaTracker {
-  background-image: url("./images/covid.png");
+#crimeSpotter {
+  background-image: url("./images/crimes.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+  background-position: 50% 50%;
+
 }
 
-#shoeStore {
-  background-image: url("./images/nike.png");
+#sportikus {
+  background-image: url("./images/sportikus.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 #quizApp {
-  background-image: url("./images/quiz.png");
+  background-image: url("./images/filmflix.png");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-#expenseTracker {
-  background-image: url("./images/expense.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#matiari {
-  background-image: url("./images/matiari.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .project-links {
@@ -481,7 +516,7 @@ body {
   min-height: 100vh;
 }
 
-.profile-image {
+/* .profile-image {
   margin: 1rem;
   box-shadow: 6px 6px 10px gray;
   width: 170px;
@@ -490,11 +525,11 @@ body {
   background-image: url("./images/junaid.png");
   background-size: cover;
   height: 170px;
-}
+} */
 
 .cards-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
@@ -510,11 +545,11 @@ body {
   box-shadow: 3px 2px 10px gray;
   border-radius: 20px;
   flex-direction: column;
-  width: 16rem;
+  width: 30rem;
   /* background: #e7dddd5c; */
   height: 9rem;
   margin: 1rem;
-  padding: 1.3rem 0;
+  padding: 1rem 0;
 }
 
 .cards:hover {
@@ -671,7 +706,7 @@ body {
 }
 
 .button {
-  background-color: #55198b;
+  background-color: #64c6d1;
   border: 1px solid #55198b;
   color: #fff;
 
@@ -710,6 +745,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    
   }
   .svg-container {
     width: 100vw;

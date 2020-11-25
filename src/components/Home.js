@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./../index.css";
-import man from "./../images/man.svg";
-import { motion, AnimatePresence } from "framer-motion";
+import me from "./../images/me-icon.jpeg";
+import { motion } from "framer-motion";
 import { animateScroll as scroll } from "react-scroll";
 
 const contentVariants = {
@@ -70,10 +70,10 @@ const Home = () => {
         initial="initial"
         animate="animate"
       >
-        <h4 className="welcome-content">WELCOME TO MY WORLD</h4>
+        {/* <h4 className="welcome-content">WELCOME TO MY WORLD</h4> */}
         <br />
         <h1 className="main-content">
-          Hi, I’m Junaid
+          Hey! I'm Emma
           <motion.span
             drag={true}
             dragConstraints={{ left: 0, top: 0, bottom: 0, right: 0 }}
@@ -82,13 +82,13 @@ const Home = () => {
             transition={{ yoyo: Infinity, duration: 1.7 }}
           >
             <span role="img" aria-label="Hand waving">
-              👋
+              👋🏾
             </span>
           </motion.span>{" "}
         </h1>
         {/* Animate Skill Content */}
 
-        <div className="skill-animation">
+        {/* <div className="skill-animation">
           <AnimatePresence>
             {showHeadingOne && (
               <motion.h2
@@ -116,16 +116,10 @@ const Home = () => {
               </motion.h2>
             )}
           </AnimatePresence>
-        </div>
+        </div> */}
         {/* // */}
 
-        <h1>
-          {" "}
-          from Pakistan{" "}
-          <span role="img" aria-label="Pakistan Flag">
-            🇵🇰
-          </span>
-        </h1>
+        <h5> A Software Developer from Chicago </h5>
 
         <button className="button" onClick={() => scroll.scrollToBottom()}>
           Contact Me
@@ -137,8 +131,8 @@ const Home = () => {
         animate={{ translateY: [-20, 0, -20, 0] }}
         transition={{ yoyo: Infinity, duration: 6 }}
       >
-        <img className="svg" src={man} alt="" />
-      </motion.div>
+        <img className="svg" src={me} alt="" />
+      </motion.div> 
     </section>
   );
 };

@@ -18,66 +18,48 @@ const Contact = () => {
         {/* Card 1 - Email */}
         <div className="cards">
           <div className="contact-icons">
-            <i className="fas fa-envelope"></i>
+            {/* <i className="fas fa-envelope"></i> */}
           </div>
           <div className="contact-text">
-            <span>Email</span>
+            <span className="email-heading">Email</span>
           </div>
           <div className="contact-links">
-            <span>qjunaid623@gmail.com</span>
+            <span>e.nwumeh@gmail.com</span>
           </div>
         </div>
 
         {/* Card 2 - Social Media */}
         <div className="cards">
           <div className="contact-icons">
-            <i className="fas fa-globe"></i>
+            {/* <i className="fas fa-globe"></i> */}
           </div>
           <div className="contact-text">
-            <span>Social Media</span>
+            <span className="sm-heading">Social Media</span>
           </div>
           <div className="contact-links">
             {/* github */}
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://github.com/developer-junaid/"
+              href="https://github.com/enwumeh/"
             >
               <i className="fab fa-github" title="github" id="github"></i>
-            </a>
-
-            {/* facebook */}
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.facebook.com/profile.php?id=100041078220896"
-            >
-              <i className="fab fa-facebook" title="facebook" id="facebook"></i>
             </a>
 
             {/* linkedIn */}
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.linkedin.com/in/developer-junaid/"
+              href="https://www.linkedin.com/in/emma-nwumeh//"
             >
               <i className="fab fa-linkedin" title="linkedin" id="linkedin"></i>
-            </a>
-
-            {/* Twitter */}
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://twitter.com/Junaid084869/"
-            >
-              <i className="fab fa-twitter" title="twitter" id="twitter"></i>
             </a>
 
             {/* Instagram */}
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.instagram.com/developerjunaid/"
+              href="https://www.instagram.com/so_emmazing//"
             >
               <i
                 className="fab fa-instagram"
@@ -91,13 +73,13 @@ const Contact = () => {
         {/* Card 3 - Phone */}
         <div className="cards">
           <div className="contact-icons">
-            <i className="fas fa-phone"></i>
+            {/* <i className="fas fa-phone"></i> */}
           </div>
           <div className="contact-text">
-            <span>Phone</span>
+            <span className="phone-heading">Phone</span>
           </div>
           <div className="contact-links">
-            <span>(+92) 313 3084869 </span>
+            <span>(708)-382-0399 </span>
           </div>
         </div>
       </div>
