@@ -21,28 +21,28 @@ const contentVariants = {
   },
 };
 
-const childrenVariants = {
-  initial: {
-    opacity: 0,
-    y: 100,
-  },
+// const childrenVariants = {
+//   initial: {
+//     opacity: 0,
+//     y: 100,
+//   },
 
-  animate: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.7,
-      type: "spring",
-      delay: 0.5,
-    },
-  },
+//   animate: {
+//     opacity: 1,
+//     y: 0,
+//     transition: {
+//       duration: 0.7,
+//       type: "spring",
+//       delay: 0.5,
+//     },
+//   },
 
-  exit: {
-    opacity: 0,
-    y: -200,
-    transition: { duration: 0.2 },
-  },
-};
+//   exit: {
+//     opacity: 0,
+//     y: -200,
+//     transition: { duration: 0.2 },
+//   },
+// };
 
 const Home = () => {
   // State
