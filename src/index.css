@@ -383,6 +383,13 @@ h5 {
 
 }
 
+#railsApp {
+  background-image: url("./images/railsapp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
 #sportikus {
   background-image: url("./images/sportikus.png");
   background-size: cover;
