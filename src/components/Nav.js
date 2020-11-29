@@ -57,6 +57,20 @@ const Nav = () => {
             Home
           </Link>
         </li>
+        <li className="link">
+          <Link
+            className="anchor"
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            delay={100}
+            offset={0}
+            duration={500}
+          >
+            About
+          </Link>
+        </li>
 
         <li className="link">
           <Link
