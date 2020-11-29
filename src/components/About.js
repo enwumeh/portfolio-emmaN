@@ -1,22 +1,12 @@
-import React from "react";
-import "./../index.css";
+// import React from "react";
+// import "./../index.css";
 
-const About = () => {
-  return (
-    <section
-      data-aos="fade-right"
-      className="about-container"
-      name="about"   
-      id="about"
-    >
-      <h1 className="heading">What I Am Good At &nbsp;&nbsp;?</h1>
+// const About = () => {
+//   return (
+//     <div className="techs">
+//       <h1 className="heading">This is me </h1>
+//     </div>
+//   );
+// };
 
-      <div className="techs">
-      
-      </div>
-      See my resume for more:
-    </section>
-  );
-};
-
-export default About;
+// export default About;

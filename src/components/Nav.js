@@ -57,7 +57,7 @@ const Nav = () => {
             Home
           </Link>
         </li>
-        <li className="link">
+        {/* <li className="link">
           <Link
             className="anchor"
             activeClass="active"
@@ -70,7 +70,7 @@ const Nav = () => {
           >
             About
           </Link>
-        </li>
+        </li> */}
 
         <li className="link">
           <Link
