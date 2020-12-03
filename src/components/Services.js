@@ -2,6 +2,8 @@ import React from "react";
 import "./../index.css";
 import uiImage from "./../images/ui.svg";
 import webImage from "./../images/web.svg";
+import fullStack from "./../images/fullstack.png";
+
 
 const Services = () => {
   return (
@@ -23,6 +25,12 @@ const Services = () => {
           <li>
             <img src={webImage} alt="" />
             <p>React Development</p>
+          </li>
+        </div>
+        <div className="services">
+          <li>
+            <img src={fullStack} alt="" />
+            <p>Full Stack Development</p>
           </li>
         </div>
       </div>
