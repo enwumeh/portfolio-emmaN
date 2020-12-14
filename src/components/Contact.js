@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="profile-image">
 
       </div>
-      <h1 className="heading">Contact</h1>
+      <h1 className="heading"><a name="Contact-me">Contact me!</a ></h1>
 
       <div className="cards-container">
         {/* Card 1 - Email */}

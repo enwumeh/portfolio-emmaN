@@ -19,7 +19,7 @@ const Portfolio = () => {
       name="portfolio"
       id="portfolio"
     >
-      <h1 className="heading">My Works</h1>
+      <h1 className="heading">My Work:</h1>
       <div className="projects-container">
         <motion.div
           className="projects"
