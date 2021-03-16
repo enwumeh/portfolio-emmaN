@@ -20,6 +20,16 @@ h5 {
   color: #64c6d1;
 }
 
+
+.avi {
+  width: 65px;
+  height: 120px;
+  position: relative;
+  padding-top: 49px;
+  padding-bottom: 11px;;
+  /* object-position:50% 35%;
+  object-fit: scale-down; */
+}
 .about-container{
   text-align: center;
   margin: 0 auto;
