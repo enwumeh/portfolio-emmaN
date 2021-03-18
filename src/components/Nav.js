@@ -119,6 +119,7 @@ const Nav = () => {
         </li>
 
         <li className="link">
+          
           <Link
             className="anchor"
             activeClass="active"
@@ -129,10 +130,9 @@ const Nav = () => {
             offset={0}
             duration={500}
           >
-            Contact
+         <img className="avi" src={avi} alt="graduation pic" />
           </Link>
         </li>
-        <img className="avi" src={avi} alt="" />
       </ul>
     </motion.div>
   );
