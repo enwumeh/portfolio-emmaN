@@ -792,12 +792,13 @@ h5 {
 @media screen and (max-width: 1150px) {
 
   .anchor {
-    display: inline-block;
+    display: inline;
     color: rgba(159, 101, 252, 0.563);
     text-decoration: none;
     cursor: pointer;
     font-family: "Varela Round", sans-serif;
-  
+    width: 400px;
+    height: 300px;
     font-size: 2.5rem;
     font-weight: 400;
     line-height: 9.1vh;
