@@ -55,10 +55,11 @@ h5 {
 }
 
 .me {
-  top: 50px;
+  top: 900px;
   padding: 200px;
   color: rgb(78, 76, 76);
   font-size: 24px;
+  position: relative;
 
 }
 
@@ -70,7 +71,7 @@ h5 {
   display: flex;
   background: rgb(43, 16, 73);
   flex-direction: row;
-  padding: 1.2rem;
+  padding: 1.7rem;
   align-items: center;
   box-shadow: 2px 2px 4px gray;
   justify-content: space-between;
@@ -114,7 +115,7 @@ h5 {
 
 .anchor {
   position:relative;
-top: 40px;
+  top: 40px;
 }
 .nav-links .anchor:hover {
   color: white;
@@ -135,14 +136,15 @@ top: 40px;
   font-family: "Varela Round", sans-serif;
   display: flex;
   color: rgba(255, 255, 255, 0.836);
-  flex-direction: row;
+  /* flex-direction: row; */
   background-color: rgb(43, 16, 73);
   height: 100%;
-  padding: 1rem;
-  align-items: center;
+  /* padding: 1rem; */
+  /* align-items: center; */
   width: 100%;
   min-height: 100vh;
   font-size: 34px;
+  position: absolute;
 }
 
 .content-container {
@@ -150,14 +152,11 @@ top: 40px;
   height: 100%;
   flex-direction: column;
   display: flex;
-  /* padding: 1.8rem; */
   margin-top: 3rem;
   position: relative;
     left: 290px; 
     top: 300px; 
-
 }
-
 
 .main-content {
   font-size: 4rem;
@@ -167,7 +166,6 @@ top: 40px;
   margin: 0.6rem 0;
   color: #9c72be;
   font-family: "Varela Round", sans-serif;
-
   font-weight: 400;
   font-size: 1.6rem;
 }
@@ -183,17 +181,15 @@ top: 40px;
   margin: 0.9rem;
   cursor: pointer;
 }
+
 .svg {
-  /* height: 400px; */
-  /* width: 360px; */
-  object-position:50% 35%;
+  object-position:0 90%;
   object-fit: scale-down;
-  /* border-radius: 50%; */
+  /* width: 2190px; */
 }
 
 .email-heading {
   font-size: 25px;
-  /* font-weight: bold; */
 }
 
 .sm-heading {
@@ -794,12 +790,32 @@ top: 40px;
 /* Media Queries */
 /* 1150 Breakpoint */
 @media screen and (max-width: 1150px) {
+
+  .anchor {
+    display: inline-block;
+    color: rgba(159, 101, 252, 0.563);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Varela Round", sans-serif;
+  
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 9.1vh;
+    margin: 0.8rem;
+    top: 40px;
+  
+  }
+  .avi {
+    width: 95px;
+    height: 101px;
+    position: absolute;
+  }
   .home-container {
     flex-direction: column;
   }
   .content-container {
     padding-top: 5rem;
-    width: 100vw;
+    /* width: 100vw; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -813,6 +829,20 @@ top: 40px;
 /*900 Mobile Nav Version */
 
 @media screen and (max-width: 900px) {
+
+  .avi {
+    width: 95px;
+    height: 101px;
+    position: absolute;
+    /* padding-top: 49px; */
+    top: -17px;
+    padding-bottom: 11px;
+    /* object-position:50% 35%;
+    object-fit: scale-down; */
+  }
+  h5 {
+    color: #d164c8;
+  }
   .nav-links {
     display: flex;
     flex-direction: column;
@@ -874,6 +904,17 @@ top: 40px;
 /* 700 */
 
 @media screen and (max-width: 700px) {
+
+  .avi {
+    width: 95px;
+    height: 101px;
+    position:relative;
+    /* padding-top: 49px; */
+    top: -17px;
+    padding-bottom: 11px;
+    /* object-position:50% 35%;
+    object-fit: scale-down; */
+  }
   .svg-container {
     margin-top: 1.5rem;
     width: 50vw;
