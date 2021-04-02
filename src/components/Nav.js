@@ -130,10 +130,10 @@ const Nav = () => {
             offset={0}
             duration={500}
           >
-         <img className="avi" src={avi} alt="graduation pic" />
           </Link>
         </li>
       </ul>
+      <img className="avi" src={avi} alt="graduation pic" />
     </motion.div>
   );
 };

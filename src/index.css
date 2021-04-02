@@ -98,14 +98,14 @@ h5 {
   padding: 25px;
 }
 
-.nav-links .anchor {
+.nav-links {
   display: inline-block;
   color: rgba(255, 255, 255, 0.563);
   text-decoration: none;
   cursor: pointer;
   font-family: "Varela Round", sans-serif;
 
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
   font-weight: 400;
   line-height: 9.1vh;
   margin: 0.8rem;
@@ -113,9 +113,12 @@ h5 {
 
 }
 
+
 .anchor {
   position:relative;
   top: 40px;
+  font-size: 34px;
+
 }
 .nav-links .anchor:hover {
   color: white;
@@ -789,6 +792,47 @@ h5 {
 
 /* Media Queries */
 /* 1150 Breakpoint */
+@media screen and (max-width: 1300px) {
+
+  .main-content {
+    font-size: 2rem;
+  }
+
+  /* .anchor.active {
+    color: #64bbd1;
+    font-weight: 800;
+    border-bottom: 2px solid rgb(98, 30, 175);
+  } */
+  .avi {
+    width: 9%;
+    height: 300%;
+    /* position: absolute; */
+    /* float: left; */
+    left: -90px;
+    top: 20%;
+  }
+
+   .anchor  {
+   padding: 14px;
+   margin: 0.4rem;
+   left: -18%; 
+   top: 12%;
+   font-size: 1.7rem;
+   font-weight: 200;
+   }
+
+   .nav-links {
+    top: 90px;
+    left: 40px;
+   }
+
+  .link{
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+}
+
+
 @media screen and (max-width: 1150px) {
 
   .anchor {
@@ -799,16 +843,18 @@ h5 {
     font-family: "Varela Round", sans-serif;
     width: 400px;
     height: 300px;
-    font-size: 2.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: 9.1vh;
     margin: 0.8rem;
-    top: 40px;
+    top: 40%;
   
   }
   .avi {
-    width: 95px;
-    height: 101px;
+    width: 7%;
+    height: 90%;
+    left: 90%;
+    top: 10%;
     position: absolute;
   }
   .home-container {
@@ -888,6 +934,7 @@ h5 {
     line-height: 9.1vh;
     width: 100vw;
     margin: 0.4rem;
+    font-size: 1.2rem;
   }
 
   .anchor.active {
