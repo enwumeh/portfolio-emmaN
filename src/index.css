@@ -24,7 +24,7 @@ h5 {
   height: 101px;
   position:relative;
   /* padding-top: 49px; */
-  top: -17px;
+  top: 6%;
   padding-bottom: 11px;
   /* object-position:50% 35%;
   object-fit: scale-down; */
@@ -247,9 +247,11 @@ h5 {
   display: flex;
   width: 100%;
   margin-top: 4rem;
+  top: 450px;
   height: 30vh;
   flex-wrap: wrap;
   flex-direction: row;
+  top: 300px;
 }
 
 .services {
