@@ -88,35 +88,6 @@ const Home = () => {
         </h1>
         {/* Animate Skill Content */}
 
-        {/* <div className="skill-animation">
-          <AnimatePresence>
-            {showHeadingOne && (
-              <motion.h2
-                className="skill-content"
-                variants={childrenVariants}
-                exit="exit"
-                animate="animate"
-                initial="initial"
-              >
-                Web UI/UX Developer | React Developer
-              </motion.h2>
-            )}
-          </AnimatePresence>
-
-          <AnimatePresence>
-            {showHeadingTwo && (
-              <motion.h2
-                className="skill-content"
-                variants={childrenVariants}
-                exit="exit"
-                animate="animate"
-                initial="initial"
-              >
-                Open Source Contributor | AI Enthusiast
-              </motion.h2>
-            )}
-          </AnimatePresence>
-        </div> */}
         {/* // */}
 
         <h5> A Software Developer from Chicago </h5>
