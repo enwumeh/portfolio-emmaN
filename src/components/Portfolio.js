@@ -117,7 +117,7 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://film-flix.netlify.app//"
+            href="https://film-flix.netlify.app/"
           >
             <div className="project-images" id="quizApp"></div>
           </a>
@@ -137,7 +137,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="https://our-quiz.web.app/"
+                href="https://film-flix.netlify.app/"
                 target="_blank"
               >
                 {" "}
