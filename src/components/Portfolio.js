@@ -119,7 +119,7 @@ const Portfolio = () => {
             target="_blank"
             href="https://film-flix.netlify.app/"
           >
-            <div className="project-images" id="quizApp"></div>
+            <div className="project-images" id="filmFlix"></div>
           </a>
           <div className="project-links">
             <div className="text">
@@ -151,7 +151,7 @@ const Portfolio = () => {
           </div>
         </motion.div>
        {/* Project 2 - Shoe Store */}
-       <motion.div
+       {/* <motion.div
           variants={boxVariants}
           whileHover="hover"
           className="projects"
@@ -192,7 +192,7 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
        
       </div>
       <a
