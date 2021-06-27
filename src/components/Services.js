@@ -1,7 +1,7 @@
 import React from "react";
 import "./../index.css";
 import uiImage from "./../images/ui.svg";
-import webImage from "./../images/web.svg";
+// import webImage from "./../images/web.svg";
 import fullStack from "./../images/fullstack.png";
 
 

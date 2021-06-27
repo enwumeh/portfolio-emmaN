@@ -1,6 +1,6 @@
 import React from "react";
 import "./../index.css";
-import avi from "./../images/nav-pic.jpeg";
+// import avi from "./../images/nav-pic.jpeg";
 
 const Contact = () => {
   return (
