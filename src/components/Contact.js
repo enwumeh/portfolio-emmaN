@@ -13,7 +13,7 @@ const Contact = () => {
       <div className="profile-image"></div>
       <div id="contact-div">
         <h1 className="heading">
-          <a href name="Contact-me">
+          <a href="Contact-me">
             Contact me!
           </a>
         </h1>
