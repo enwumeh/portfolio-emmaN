@@ -30,6 +30,10 @@ const Skills = () => {
           <p>MongoDB</p>
         </li>
         <li>
+          <img src="https://www.pinclipart.com/picdir/middle/519-5199224_postgresql-logo-png-transparent-clipart.png" className="skills-img" alt="github"></img>
+          <p>Postgresql</p>
+        </li>
+        <li>
           <img src="https://miro.medium.com/max/2732/1*mtsk3fQ_BRemFidhkel3dA.png" className="skills-img" alt="github"></img>
           <p>Git/Github</p>
         </li>

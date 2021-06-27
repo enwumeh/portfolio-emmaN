@@ -21,12 +21,12 @@ const Services = () => {
             <p>Web Development</p>
           </li>
         </div>
-        <div className="services">
+        {/* <div className="services">
           <li>
             <img src={webImage} alt="" />
             <p>React Development</p>
           </li>
-        </div>
+        </div> */}
         <div className="services">
           <li>
             <img src={fullStack} alt="" />
