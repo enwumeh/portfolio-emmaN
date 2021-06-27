@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./../index.css";
-import avi from "./../images/nav-pic.jpeg";
 import { motion } from "framer-motion";
 import { animateScroll as scroll, Link } from "react-scroll";
 
@@ -133,7 +132,6 @@ const Nav = () => {
           </Link>
         </li>
       </ul>
-      <img className="avi" src={avi} alt="graduation pic" />
     </motion.div>
   );
 };

@@ -561,6 +561,10 @@ h5 {
   background-repeat: no-repeat;
 }
 
+
+.contact-div {
+  display: block;
+}
 /* Contact */
 .contact-container {
   font-family: "Exo 2", sans-serif;

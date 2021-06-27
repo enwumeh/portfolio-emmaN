@@ -1,5 +1,6 @@
 import React from "react";
 import "./../index.css";
+import avi from "./../images/nav-pic.jpeg";
 
 const Contact = () => {
   return (
@@ -9,10 +10,15 @@ const Contact = () => {
       name="contact"
       id="contact"
     >
-      <div className="profile-image">
-
+      <div className="profile-image"></div>
+      <div id="contact-div">
+        <h1 className="heading">
+          <a href name="Contact-me">
+            Contact me!
+          </a>
+        </h1>
+        {/* <img className="avi" src={avi} alt="graduation pic" /> */}
       </div>
-      <h1 className="heading"><a href name="Contact-me">Contact me!</a ></h1>
 
       <div className="cards-container">
         {/* Card 1 - Email */}
