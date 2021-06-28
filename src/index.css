@@ -905,7 +905,7 @@ h5 {
     object-fit: scale-down; */
   }
   h5 {
-    color: #d164c8;
+    color: #8c868b;
   }
   .nav-links {
     display: flex;
@@ -942,7 +942,7 @@ h5 {
     position: relative;
     text-align: center;
     margin: 0 auto;
-    color: pink;
+    color: rgb(46, 46, 46);
 
   }
 
