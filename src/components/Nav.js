@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./../index.css";
 import { motion } from "framer-motion";
-import { animateScroll as scroll, Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Nav = () => {
   const [navbar, setNavbar] = useState(false);

@@ -1,27 +1,27 @@
 import React, { useState, useEffect } from "react";
 import "./../index.css";
-import me from "./../images/me-icon.jpeg";
+// import me from "./../images/me-icon.jpeg";
 import { motion } from "framer-motion";
-import { animateScroll as scroll } from "react-scroll";
+// import { animateScroll as scroll } from "react-scroll";
 import Nav from "../components/Nav";
 import skyline from "../images/pinkskyline.jpeg";
 
-const contentVariants = {
-  initial: {
-    translateY: "100vh",
-    opacity: 0,
-  },
+// const contentVariants = {
+//   initial: {
+//     translateY: "100vh",
+//     opacity: 0,
+//   },
 
-  animate: {
-    translateY: "0vh",
-    opacity: 1,
-    transition: {
-      duration: 2,
-      when: "beforeChildren",
-      // staggerChildren: 0.4,
-    },
-  },
-};
+//   animate: {
+//     translateY: "0vh",
+//     opacity: 1,
+//     transition: {
+//       duration: 2,
+//       when: "beforeChildren",
+//       // staggerChildren: 0.4,
+//     },
+//   },
+// };
 
 // const childrenVariants = {
 //   initial: {
