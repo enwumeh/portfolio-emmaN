@@ -817,7 +817,7 @@ font-weight: bold;
 }
 .home-text {
 position: relative;
-top: -80%;
+top: -60%;
 left: 23%;
 color: rgb(67, 49, 60);
 letter-spacing: 14px
@@ -826,7 +826,7 @@ letter-spacing: 14px
 .heading {
   margin: 2rem 0;
   font-family: OCR A Std, monospace;
-  color: rgb(75, 46, 26);
+  color: rgb(219 187 166);
 }
 
 /* Media Queries */
@@ -899,7 +899,7 @@ letter-spacing: 14px
     position: absolute;
   }
   .home-container {
-    flex-direction: column;
+    /* flex-direction: column; */
     position: relative;
     z-index: -2;
   }
