@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 import "./../index.css";
-import Nav from "../components/Nav";
+import ScrollToTop from "./ScrollToTop";
+
 import Home from "../components/Home";
 import Skills from "../components/Skills";
 import Portfolio from "../components/Portfolio";
 import About from "../components/About";
 import Contact from "../components/Contact";
-import Services from "../components/Services";
+// import Services from "../components/Services";
 import Footer from "../components/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -18,14 +19,18 @@ function Main() {
 
   return (
     <div className="main-container">
-      <Nav />
-      <Home />
-      <About />
-      <Services />
+
+      <ScrollToTop>
+        <Home />
+        <div className="about-pad">
+        <About />
+        </div>
+      {/* <Services /> */}
       <Skills />
       <Portfolio />
       <Contact />
-      <Footer />
+        <Footer />
+        </ScrollToTop>
     </div>
   );
 }

@@ -10,7 +10,7 @@ const Skills = () => {
       name="skills"   
       id="skills"
     >
-      <h1 className="heading">What I Am Good At &nbsp;&nbsp;?</h1>
+      <h1 className="heading">What I Am Good At?</h1>
 
       <div className="techs">
       <li>

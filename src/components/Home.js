@@ -3,6 +3,8 @@ import "./../index.css";
 import me from "./../images/me-icon.jpeg";
 import { motion } from "framer-motion";
 import { animateScroll as scroll } from "react-scroll";
+import Nav from "../components/Nav";
+import skyline from "../images/pinkskyline.jpeg";
 
 const contentVariants = {
   initial: {
@@ -63,48 +65,49 @@ const Home = () => {
   }, [showHeadingOne, showHeadingTwo]);
 
   return (
-    <section className="home-container" id="home" name="home">
-      <motion.div
+    <div className="home-container" id="home" name="home">
+      <img id="skyline" src={skyline} alt="skyline" />
+
+      <div className="home-text">
+      <h1 className="main-content">
+        Emmanuela
+        <motion.span
+          drag={true}
+          dragConstraints={{ left: 0, top: 0, bottom: 0, right: 0 }}
+          className="hand"
+          animate={{ rotate: [0, 20, 0, 20, 0, 0, 0, 0, 0, 0] }}
+          transition={{ yoyo: Infinity, duration: 1.7 }}
+        >
+          {/* <span role="img" aria-label="Hand waving">
+              👋🏾
+            </span> */}
+        </motion.span>
+      </h1>
+      {/* <motion.div
         className="content-container"
         variants={contentVariants}
         initial="initial"
         animate="animate"
-      >
+      > */}
         {/* <h4 className="welcome-content">WELCOME TO MY WORLD</h4> */}
         <br />
-        <h1 className="main-content">
-          Hey! I'm Emma
-          <motion.span
-            drag={true}
-            dragConstraints={{ left: 0, top: 0, bottom: 0, right: 0 }}
-            className="hand"
-            animate={{ rotate: [0, 20, 0, 20, 0, 0, 0, 0, 0, 0] }}
-            transition={{ yoyo: Infinity, duration: 1.7 }}
-          >
-            <span role="img" aria-label="Hand waving">
-              👋🏾
-            </span>
-          </motion.span>{" "}
-        </h1>
-        {/* Animate Skill Content */}
+        <div id="im-emma"> Full Stack Developer </div>
 
-        {/* // */}
-
-        <h5> A Software Developer from Chicago </h5>
-
-        <button className="button" onClick={() => scroll.scrollToBottom()}>
+        {/* <button className="button" onClick={() => scroll.scrollToBottom()}>
           Contact Me
-        </button>
-      </motion.div>
+        </button> */}
+      <Nav />
+      </div>
+      {/* </motion.div> */}
 
-      <motion.div
+      {/* <motion.div
         className="svg-container"
         animate={{ translateY: [-20, 0, -20, 0] }}
         transition={{ yoyo: Infinity, duration: 6 }}
       >
         <img className="svg" src={me} alt="" />
-      </motion.div> 
-    </section>
+      </motion.div>  */}
+    </div>
   );
 };
 

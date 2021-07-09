@@ -34,16 +34,16 @@ const Nav = () => {
         duration: 1.5,
       }}
     >
-      <span className="logo" onClick={() => scroll.scrollToTop()}>
+      {/* <span className="logo" onClick={() => scroll.scrollToTop()}>
         Emma Nwumeh
-      </span>
+      </span> */}
       {/* Mobile Menu Icon */}
       <div className="menu-icon" onClick={handleClick}>
         <i className={navClicked ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
       {/* // */}
       <ul className={ navClicked ? "nav-links active" : "nav-links" }>
-        <li className="link">
+        {/* <li className="link">
           <Link
             className={navbar ? "anchor is-active" : "anchor"}
             activeClass="active"
@@ -56,7 +56,7 @@ const Nav = () => {
           >
             Home
           </Link>
-        </li>
+        </li> */}
         <li className="link">
           <Link
             className="anchor"
@@ -68,11 +68,11 @@ const Nav = () => {
             offset={0}
             duration={500}
           >
-            About
+            ABOUT
           </Link>
         </li>
 
-        <li className="link">
+        {/* <li className="link">
           <Link
             className="anchor"
             activeClass="active"
@@ -85,7 +85,7 @@ const Nav = () => {
           >
             Services
           </Link>
-        </li>
+        </li> */}
 
         <li className="link">
           <Link
@@ -98,7 +98,7 @@ const Nav = () => {
             offset={0}
             duration={500}
           >
-            Skills
+            SKILLS
           </Link>
         </li>
 
@@ -113,7 +113,7 @@ const Nav = () => {
             offset={0}
             duration={500}
           >
-            Portfolio
+            PORTFOLIO
           </Link>
         </li>
 
@@ -129,6 +129,7 @@ const Nav = () => {
             offset={0}
             duration={500}
           >
+            CONTACT
           </Link>
         </li>
       </ul>
