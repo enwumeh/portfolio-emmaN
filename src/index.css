@@ -105,7 +105,7 @@ font-weight: bold;
   float: right;
   display: block;
   height: 40%;
-  top: -48vh;          
+  top: -65vh;          
   /* overflow-y: hidden;                                  */
 }
 /* About */
@@ -186,9 +186,9 @@ font-weight: bold;
 
 }
 .anchor.active {
-  color: #64c6d1;
+  color: #aa9a8e;
   font-weight: 800;
-  border-bottom: 2px solid rgb(98, 30, 175);
+  border-bottom: 2px solid rgba(203, 198, 210, 0.865);
 }
 
 .menu-icon {
@@ -229,7 +229,7 @@ font-weight: bold;
 
 .skill-content {
   margin: 0.6rem 0;
-  color: #9c72be;
+  color: #cdb3a7;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
@@ -492,7 +492,7 @@ font-weight: bold;
   border-radius: 10px;
   cursor: pointer;
   width: 100%;
-  border-bottom: 1px solid #55198b;
+  border-bottom: 1px solid #edbaa8;
   height: 70%;
 }
 
@@ -834,14 +834,14 @@ font-weight: bold;
 }
 
 .footer-container a:hover {
-  color: #5bbd22c5;
+  color: #a0714de7;
 }
 
 /* General */
 
 .button:hover {
   background-color: #fff;
-  color: #55198b;
+  color: #d7bfb9;
   transition: all 0.3s ease 0s;
   transform: translateY(-3px);
 }
@@ -938,7 +938,7 @@ letter-spacing: 14px;
 
   .anchor {
     display: inline;
-    color: rgba(159, 101, 252, 0.563);
+    color: rgba(208, 203, 215, 0.926);
     text-decoration: none;
     cursor: pointer;
     font-family: "Varela Round", sans-serif;
@@ -1045,7 +1045,7 @@ letter-spacing: 14px;
     position: relative;
     text-align: center;
     margin: 0 auto;
-    color: rgb(46, 46, 46);
+    color: rgb(226, 202, 202);
 
   }
 
