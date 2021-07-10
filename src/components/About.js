@@ -1,5 +1,7 @@
 import React from "react";
 import "./../index.css";
+import photo from "../images/me-photo.jpeg";
+
 
 const About = () => {
   return (
@@ -35,6 +37,9 @@ const About = () => {
         <a className="email-link-about" href="#Contact-me">
           Reach out!
         </a>
+        <div id="me-div">
+          <img id="me-photo" src={photo} alt="me" />
+          </div>
       </div>
     </section>
   );

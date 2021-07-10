@@ -5,9 +5,11 @@
 }
 
 body {
-  width: 100%;
+  max-width: 105%;
+  overflow-x: hidden;
   background: rgb(58, 53, 53);
   height: 100vh;
+  margin: 0 auto;
   font-family: "Ubuntu", sans-serif;
 
 }
@@ -40,6 +42,7 @@ h5 {
 .about-speel{
   width: 34%;
   margin: 0 auto;
+  /* float: left; */
   padding-top: 85px;
   line-height: 200%;
   font-size: 12px;
@@ -56,7 +59,7 @@ h5 {
 }
 
 #im-emma{
-font-size: 3.2vh;
+font-size: 2.6vh;
 color: rgb(77, 45, 42);
 font-family: OCR A Std, monospace;
 font-weight: bold;
@@ -73,11 +76,28 @@ font-weight: bold;
   color: rgb(210 194 194);
   font-size: 24px;
   position: relative;
+  display: inline-block;
+  width: 90%;
   /* top: 5px; */
   /* left: 32px; */
 
 }
 
+.me-div {
+    display: inline-block;
+  width: 200%;
+  height: 10%;
+}
+
+#me-photo {
+  /* display: inline-block; */
+  width: 14%;
+  position: relative;
+  float: right;
+  display: block;
+  /* height: 10%; */
+  top: -38vh;                                           
+}
 /* About */
 
 /* Nav */
@@ -133,7 +153,7 @@ font-weight: bold;
 .anchor {
   position: relative;
   top: 30%;
-  font-size: 28px;
+  font-size: 18px;
 
 }
 .nav-links .anchor:hover {
@@ -191,7 +211,7 @@ font-weight: bold;
 }
 
 .main-content {
-  font-size: 5rem;
+  font-size: 3.2rem;
   position: relative;
   z-index: 2;
   font-family: OCR A Std, monospace;
@@ -823,10 +843,13 @@ font-weight: bold;
 }
 .home-text {
 position: relative;
-top: -82%;
+ top: -82%;
+ display: inline-block;
+ width: 70%;
 left: 25%;
 color: rgb(67, 49, 60);
-letter-spacing: 14px
+letter-spacing: 14px;
+/* font-size: 34vh; */
 }
 
 .heading {
