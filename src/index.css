@@ -38,11 +38,11 @@ h5 {
 }
 
 .about-speel{
-  width: 46%;
+  width: 34%;
   margin: 0 auto;
   padding-top: 85px;
   line-height: 200%;
-  font-size: 15px;
+  font-size: 12px;
 
 }
 
@@ -50,6 +50,8 @@ h5 {
   text-decoration: none;
   color: rgb(205, 190, 178);
   font-weight: bold;
+  font-size: 1.0vh;
+
 }
 
 #im-emma{
