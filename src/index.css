@@ -13,8 +13,10 @@ body {
   font-family: "Ubuntu", sans-serif;
 
 }
-
-
+/* h3{
+  color: #ebbba0;
+  font-size: 2.8vh;
+} */
 
 h5 {
   color: #e8e9e9;
@@ -85,7 +87,7 @@ font-weight: bold;
   position: relative;
   display: inline-block;
   width: 90%;
-  top: 8vh;
+  /* top: 4vh; */
   left: -10%;
 
 }
@@ -98,7 +100,7 @@ font-weight: bold;
 
 #me-photo {
   /* display: inline-block; */
-  width: 10%;
+  width: 20%;
   position: relative;
   float: right;
   display: block;
@@ -360,7 +362,7 @@ font-weight: bold;
 .skills-container {
   font-family: "Exo 2", sans-serif;
   display: flex;
-  color: rgb(0, 0, 0);
+  color: rgb(187, 187, 187);
   font-size: 1.3rem;
   flex-direction: column;
   padding: 2rem;
@@ -500,6 +502,8 @@ font-weight: bold;
   background-size: cover;
   /* background-repeat: no-repeat; */
   background-position: 50% 50%;
+  /* width: 500px;
+  height: 500px; */
 
 }
 
@@ -508,6 +512,9 @@ font-weight: bold;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  /* width: 500px; */
+  /* height: 500px; */
+  /* padding: 30px; */
 }
 
 #sportikus {
@@ -515,6 +522,9 @@ font-weight: bold;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  /* width: 500px;
+  height: 500px; */
+  padding: 30px;
 }
 
 #filmFlix {
@@ -522,6 +532,9 @@ font-weight: bold;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 46% 50%;
+  /* width: 500px;
+  height: 500px; */
+  padding: 30px;
 }
 
 .project-links {
@@ -535,10 +548,11 @@ font-weight: bold;
 
 .project-links .text {
   width: 100%;
-  height: 50%;
-  color: black;
+  height: 80%;
+  color: #ebbba0;
   font-family: "Varela Round", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1.4rem;
+  /* padding: 10vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -637,7 +651,7 @@ font-weight: bold;
 .contact-container {
   font-family: "Exo 2", sans-serif;
   display: flex;
-  color: rgb(0, 0, 0);
+  color: rgb(187, 187, 187);
   font-size: 1.3rem;
   flex-direction: column;
   padding: 2rem;
@@ -800,7 +814,7 @@ font-weight: bold;
 .footer-container {
   font-family: "Exo 2", sans-serif;
   display: flex;
-  color: black;
+  color: rgb(155, 154, 154);
   font-size: 0.7rem;
   /* background: rgb(58, 55, 55); */
   padding: 2rem;
@@ -815,7 +829,7 @@ font-weight: bold;
   text-decoration: none;
   font-family: "Varela Round", sans-serif;
 
-  color: #dabac1;
+  color: #c68f70;
   text-shadow: 1px 1px 1px black;
 }
 
