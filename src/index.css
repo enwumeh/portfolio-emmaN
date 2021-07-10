@@ -40,9 +40,11 @@ h5 {
 }
 
 .about-speel{
-  width: 34%;
+  width: 35%;
   margin: 0 auto;
   /* float: left; */
+  position: relative;
+  /* left: -20%; */
   padding-top: 85px;
   line-height: 200%;
   font-size: 12px;
@@ -78,8 +80,8 @@ font-weight: bold;
   position: relative;
   display: inline-block;
   width: 90%;
-  /* top: 5px; */
-  /* left: 32px; */
+  top: 15vh;
+  left: -10%;
 
 }
 
@@ -91,12 +93,13 @@ font-weight: bold;
 
 #me-photo {
   /* display: inline-block; */
-  width: 14%;
+  width: 10%;
   position: relative;
   float: right;
   display: block;
-  /* height: 10%; */
-  top: -38vh;                                           
+  height: 40%;
+  top: -48vh;          
+  /* overflow-y: hidden;                                  */
 }
 /* About */
 
@@ -257,6 +260,14 @@ font-weight: bold;
 
 .welcome-content {
   color: gray;
+}
+
+#res-link {
+  text-decoration: none;
+  color: white;
+}
+#resume-text{
+  color: rgb(219 187 166);
 }
 
 .svg-container {
@@ -821,7 +832,7 @@ font-weight: bold;
 }
 
 .button {
-  background-color: #64c6d1;
+  background-color: #d3b99d;
   border: 1px solid #55198b;
   color: #fff;
 
@@ -856,7 +867,16 @@ letter-spacing: 14px;
   margin: 2rem 0;
   font-family: OCR A Std, monospace;
   color: rgb(219 187 166);
+  font-size: 2.5vh;
 }
+
+
+
+
+
+
+
+
 
 /* Media Queries */
 /* 1150 Breakpoint */

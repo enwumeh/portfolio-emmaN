@@ -6,8 +6,8 @@ const Download = () => {
 
 
     return (
-      <div className = "App">
-        <a href = {resume} target = "_blank" rel="noopener noreferrer">Download</a>
+      <div id="resume">
+        <a id ="res-link"href = {resume} target = "_blank" rel="noopener noreferrer">Download</a>
       </div>
     );
   }

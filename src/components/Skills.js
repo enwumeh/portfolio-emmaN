@@ -38,7 +38,10 @@ const Skills = () => {
           <p>Git/Github</p>
         </li>
       </div>
+      <p id="resume-text">
       See my resume for more:
+      </p>
+      
       <Download/>
     </section>
   );
