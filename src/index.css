@@ -31,6 +31,11 @@ h5 {
   /* object-position:50% 35%;
   object-fit: scale-down; */
 }
+
+#contact-text  {
+  color: #d3b99d;
+  text-decoration: none;
+}
 .about-container{
   text-align: center;
   margin: 0 auto;
@@ -80,7 +85,7 @@ font-weight: bold;
   position: relative;
   display: inline-block;
   width: 90%;
-  top: 15vh;
+  top: 8vh;
   left: -10%;
 
 }
@@ -810,7 +815,7 @@ font-weight: bold;
   text-decoration: none;
   font-family: "Varela Round", sans-serif;
 
-  color: #9300ff;
+  color: #dabac1;
   text-shadow: 1px 1px 1px black;
 }
 
@@ -833,8 +838,8 @@ font-weight: bold;
 
 .button {
   background-color: #d3b99d;
-  border: 1px solid #55198b;
-  color: #fff;
+  border: 1px solid #cdcdcd;
+  color: rgb(22, 21, 21);
 
   font-weight: 700;
   width: -webkit-max-content;
