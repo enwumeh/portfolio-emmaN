@@ -537,6 +537,16 @@ font-weight: bold;
   padding: 30px;
 }
 
+#perfumery {
+  background-image: url("./images/perfumery.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 46% 50%;
+  /* width: 500px;
+  height: 500px; */
+  padding: 30px;
+}
+
 .project-links {
   display: flex;
   flex-direction: column;
