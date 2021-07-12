@@ -83,7 +83,7 @@ const Portfolio = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                // href="https://github.com/enwumeh/filmflix"
+                href="https://github.com/enwumeh/"
               >
                 <i className="fab fa-github" title="github repo" id="github">
                   {" "}
@@ -91,7 +91,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                // href="https://film-flix.netlify.app/ "
+                href="https://github.com/enwumeh"
                 target="_blank"
               >
                 {" "}
