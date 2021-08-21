@@ -43,7 +43,7 @@ h5 {
   margin: 0 auto;
   color: rgb(59, 60, 60);
   position: relative;
-  /* top: -395px; */
+  top: vh;
 }
 
 .about-speel{
@@ -915,7 +915,6 @@ letter-spacing: 14px;
     font-size: 2rem;
   }
 
-
   .avi {
     width: 9%;
     height: 300%;
@@ -962,12 +961,30 @@ letter-spacing: 14px;
   
   }
 
+
+
+  #me-photo {
+    /* display: inline-block; */
+    width: 20%;
+    position: relative;
+    float: right;
+    display: block;
+    height: 40%;
+    top: -60vh;          
+    /* overflow-y: hidden;                                  */
+  }
+
+  .about-speel {
+    color: rgba(218, 212, 203, 0.911);
+    width: 50%;
+    font-size: 2vh;
+    left: -5vh;
+  }
   .nav-links {
     
     width: 100%;
     left: 90%;
-    /* min-heigxht: 500px; */
-    /* position: absolute; */
+    color: green;
   }
   .avi {
     width: 7%;
@@ -1148,6 +1165,17 @@ letter-spacing: 14px;
 /* 395*/
 
 @media screen and (max-width: 395px) {
+  /* .main-container {
+    height: 90%;
+  } */
+  .main-content {
+    color: red;
+  }
+  .home-container {
+    position: relative;
+    height: 133vh;
+    width: 57vh;
+  }
   .heading {
     font-size: 1.2rem;
   }
