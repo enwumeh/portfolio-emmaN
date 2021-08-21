@@ -26,7 +26,7 @@ const About = () => {
           feet wet and eager to learn more useful technology. As a Brain
           Sciences major, I’m able to appreciate the intersection between our
           behavior and software, and exploring that through building interfaces
-          is something I have been excited about during this journey so far.
+          is something I have been excited about during my journey.
           Thanks for listening to my story! I’d love to stay connected :)
         </p>
         <br></br>
