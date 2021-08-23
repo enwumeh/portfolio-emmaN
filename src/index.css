@@ -1176,16 +1176,44 @@ letter-spacing: 14px;
     height: 90%;
   } */
   .main-content {
-    color: rgb(67, 49, 60)  }
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 3.8vh;
+    text-align: center;
+    right: 15%;
+   }
+
+   .nav-links .anchor {
+    /* display: block; */
+    line-height: 9.1vh;
+    width: 100vw;
+    margin:0 auto;
+    font-size: 0.7rem;
+  }
+
+  #im-emma {
+    font-size: 2.2vh;
+    right: 12%;
+    position: relative;
+  }
+
+
   .home-container {
     position: relative;
     height: 133vh;
     width: 57vh;
   }
   .heading {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .button {
     font-size: 0.8rem;
   }
+
+  .anchor .links .nav-links {
+    font-size: 45vh;
+  }
+
+  /* .links {
+    font-size: 55vh;
+  } */
 }
