@@ -927,7 +927,7 @@ letter-spacing: 14px;
    margin: 0.4rem;
    left: -18%; 
    top: 19%;
-   font-size: 1.1rem;
+   font-size: 1f.5rem;
    font-weight: 200;
    }
 
@@ -937,7 +937,7 @@ letter-spacing: 14px;
    }
 
   .link{
-    font-size: 1.2rem;
+    font-size: 0.5rem;
     /* padding: 10px; */
   }
 }
@@ -970,7 +970,7 @@ letter-spacing: 14px;
     float: right;
     display: block;
     height: 40%;
-    top: -60vh;          
+    top: -80vh;          
     /* overflow-y: hidden;                                  */
   }
 
@@ -1176,8 +1176,7 @@ letter-spacing: 14px;
     height: 90%;
   } */
   .main-content {
-    color: red;
-  }
+    color: rgb(67, 49, 60)  }
   .home-container {
     position: relative;
     height: 133vh;
