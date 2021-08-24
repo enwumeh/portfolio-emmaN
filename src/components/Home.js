@@ -65,9 +65,9 @@ const Home = () => {
   }, [showHeadingOne, showHeadingTwo]);
 
   return (
+    
     <div className="home-container" id="home" name="home">
       <img id="skyline" src={skyline} alt="skyline" />
-
       <div className="home-text">
       <h1 className="main-content">
         Emmanuela
@@ -82,7 +82,11 @@ const Home = () => {
               👋🏾
             </span> */}
         </motion.span>
-      </h1>
+        </h1>
+
+        {console.log("here:",[])}
+
+
       {/* <motion.div
         className="content-container"
         variants={contentVariants}
