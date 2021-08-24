@@ -105,7 +105,7 @@ font-weight: bold;
   float: right;
   display: block;
   height: 40%;
-  top: -65vh;          
+  top: -40vh;          
   /* overflow-y: hidden;                                  */
 }
 /* About */
@@ -1136,9 +1136,9 @@ letter-spacing: 14px;
     font-size: 0.7rem;
   }
 
-  .main-content {
+  /* .main-content {
     font-size: 2rem;
-  }
+  } */
 
   .skill-content {
     margin: 0.6rem 0;
@@ -1151,6 +1151,11 @@ letter-spacing: 14px;
 
   .welcome-content {
     font-size: 0.7rem;
+  }
+
+  .anchor .link {
+    font-size: 2vh;
+    color: green;
   }
 }
 
