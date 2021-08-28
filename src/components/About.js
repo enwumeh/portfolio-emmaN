@@ -32,11 +32,12 @@ const About = () => {
           is something I have been excited about during my journey.
             Thanks for listening to my story! I’d love to stay connected :)
             </span>
-        </p>
+        
         <br></br>
         <a className="email-link-about" href="#Contact-me">
           Reach out!
-        </a>
+          </a>
+          </p>
         <div id="me-div">
           <img id="me-photo" src={photo} alt="me" />
         </div>

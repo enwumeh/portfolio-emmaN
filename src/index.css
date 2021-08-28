@@ -1271,14 +1271,23 @@ letter-spacing: 14px;
 @media screen and (max-width: 295px) {
   .about-speel {
     font-size: 1rem;
-    width: 200%;
-    line-height: 19px
+    width: 145%;
+    /* left: 3px; */
+    line-height: 19px;
+    top: 16rem;
+    /* float: right; */
   }
 
   #me-photo {
-    /* display: block; */
-    width: 40vh;
-    height: 60vh;
-    top: -94vh;
+    /* margin: 0 auto; */
+    display: block;
+    top: -68vh;
+    /* width: 36vh; */
+    /* left: 19vh; */
+    /* height: 44vh; */
+  }
+
+  .me {
+    top: 0vh;
   }
 }
