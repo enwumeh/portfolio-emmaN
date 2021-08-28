@@ -14,7 +14,10 @@ const About = () => {
       id="about"
     >
       <div className="me">
-        <h1 className="heading">About me</h1>
+        <h1 className="heading" id="about-heading">About me</h1>
+        <div id="me-div">
+          <img id="me-photo" src={photo} alt="me" />
+        </div>
         <p className="about-speel">
           Hello! I’m Emma and I am a full stack developer who enjoys creating
           unique experiences from scratch. I graduated from Washington
@@ -38,9 +41,7 @@ const About = () => {
           Reach out!
           </a>
           </p>
-        <div id="me-div">
-          <img id="me-photo" src={photo} alt="me" />
-        </div>
+       
       </div>
     </section>
   );
