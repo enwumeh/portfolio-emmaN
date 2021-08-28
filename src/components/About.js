@@ -3,6 +3,9 @@ import "./../index.css";
 import photo from "../images/me-photo.jpeg";
 
 const About = () => {
+
+
+  const classToggle = true ? "tes" : "no";
   return (
     <section
       // data-aos="flip-left"
@@ -18,7 +21,7 @@ const About = () => {
           University in St. Louis in 2020 where I studied Cognitive Brain
           Science. I was on track to be a doctor up until my final year. I
           decided to take a Computer Science course with a friend for fun. The
-          course was stimulating and challenging...which entrigued me. I decided
+          course was stimulating and challenging...which entrigued me. <span id="read-more">I decided
           to take a sizable leap of faith and abandon my journey of
           becoming a physician to pursue programming instead. After graduation,
           I took a coding bootcamp to dive into this newfound thing I
@@ -27,7 +30,8 @@ const About = () => {
           Sciences major, I’m able to appreciate the intersection between our
           behavior and software, and exploring that through building interfaces
           is something I have been excited about during my journey.
-          Thanks for listening to my story! I’d love to stay connected :)
+            Thanks for listening to my story! I’d love to stay connected :)
+            </span>
         </p>
         <br></br>
         <a className="email-link-about" href="#Contact-me">

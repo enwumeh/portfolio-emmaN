@@ -46,6 +46,10 @@ h5 {
   top: vh;
 }
 
+/* #read-more {
+  display: none;
+} */
+
 .about-speel{
   width: 35%;
   margin: 0 auto;
@@ -1178,6 +1182,20 @@ letter-spacing: 14px;
   .svg {
     height: 40%;
   }
+
+  .about-speel {
+    font-size : 1.4vh;
+    width: 50%;
+    left: -7vh;
+  }
+
+  #me-photo {
+    top: -55vh;
+    width: 20vh;
+    height: 34vh;
+    left: 33%;
+  }
+
 }
 
 /* 415 */
@@ -1232,7 +1250,35 @@ letter-spacing: 14px;
     font-size: 45vh;
   }
 
+  /* .about-speel {
+    width: 154%;
+    left: 3.5vh;
+    top: 30vh;
+    line-height: 2vh;
+    font-size: 1.5vh;
+  } */
+
+  /* #me-photo {
+  
+    top: -64vh;
+    left: 19vh;
+  } */
+
   /* .links {
     font-size: 55vh;
   } */
+}
+@media screen and (max-width: 295px) {
+  .about-speel {
+    font-size: 1rem;
+    width: 200%;
+    line-height: 19px
+  }
+
+  #me-photo {
+    /* display: block; */
+    width: 40vh;
+    height: 60vh;
+    top: -94vh;
+  }
 }
