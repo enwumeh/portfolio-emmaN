@@ -5,7 +5,6 @@ import photo from "../images/me-photo.jpeg";
 const About = () => {
 
 
-  const classToggle = true ? "tes" : "no";
   return (
     <section
       // data-aos="flip-left"
