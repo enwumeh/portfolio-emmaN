@@ -53,7 +53,7 @@ h5 {
   margin: 0 auto;
   float: right;
   position: relative;
-  left: -5%;
+  left: -15%;
   padding-top: 85px;
   line-height: 260%;
   font-size: 13px;
@@ -104,7 +104,9 @@ h5 {
   /* height: 10%; */
   left: 20%;
   top: 8.5vh;
-  overflow-y: hidden;                                 
+  overflow-y: hidden;  
+  object-position: 19px 4px 8px;
+                            
 }
 /* About */
 
