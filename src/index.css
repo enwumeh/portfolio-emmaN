@@ -104,9 +104,8 @@ h5 {
   /* height: 10%; */
   left: 20%;
   top: 8.5vh;
-  overflow-y: hidden;  
+  overflow-y: hidden;
   object-position: 19px 4px 8px;
-                            
 }
 /* About */
 
@@ -888,8 +887,6 @@ h5 {
   font-size: 2.5vh;
 }
 
-
-
 /* Media Queries */
 /* 1150 Breakpoint */
 @media screen and (max-width: 1300px) {
@@ -924,7 +921,7 @@ h5 {
   }
 }
 
-/*@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1150px) { 
 
  
   .main-content {
@@ -959,25 +956,23 @@ h5 {
 
 
   #me-photo {
-    /* display: inline-block; */
-/* width: 20%;
+    /* display: inline-block; 
+width: 20%;
     position: relative;
     float: right;
     display: block;
     height: 40%;
-    top: -80vh;           */
-/* overflow-y: hidden;                                  */
-/* } */
+    top: -80vh;           
+overflow-y: hidden;                                  */
+ } 
 
-/* .about-speel {
+.about-speel {
     color: rgba(218, 212, 203, 0.911);
     width: 50%;
     font-size: 2vh;
     left: -5vh;
   }
   .nav-links {
-    
-    
     color: rgb(201, 191, 201);
   }
   .avi {
@@ -1012,7 +1007,7 @@ h5 {
     top: 9%;
   }
 
-} */
+} 
 
 /*900 Mobile Nav Version */
 
@@ -1124,6 +1119,9 @@ h5 {
     font-size: 0.7rem;
   }
 
+  .about-speel {
+    font-size: 10px;
+  }
   /* .main-content {
     font-size: 2rem;
   } */
@@ -1178,20 +1176,24 @@ h5 {
 /* 395*/
 
 @media screen and (max-width: 395px) {
-
   .about-speel {
     width: 80%;
-    font-size: 1.1vh;
-    line-height: 1.4vh;
+    font-size: 1.5vh;
+    line-height: 2.4vh;
   }
-   .main-container { 
+  .main-container {
     height: 90%;
-  } 
+  }
   .main-content {
     color: rgba(0, 0, 0, 0.534);
     font-size: 3.8vh;
     text-align: center;
     right: 15%;
+  }
+
+  .cards {
+    width: 18rem;
+    overflow: hidden;
   }
 
   .nav-links .anchor {
@@ -1222,24 +1224,16 @@ h5 {
   .anchor .links .nav-links {
     font-size: 45vh;
   }
-
 }
 @media screen and (max-width: 295px) {
-
-  section {
-    left: 44vh;
-  }
   .about-speel {
     font-size: 0.9rem;
-    width: 145%;
-    left: 18%;
+    width: 245%;
     line-height: 19px;
-    top: 4rem;
+    top: 1rem;
+    right: 80vh;
     color: red;
-  }
-
-  #about-heading {
-    left: 23%;
+    margin: 0 auto;
   }
 
   .projects {
@@ -1252,16 +1246,16 @@ h5 {
   }
 
   .cards {
-    width: 18rem;
+    width: 88%;
     padding: 2rem;
   }
-  /* #me-photo {
+  #me-photo {
     margin: 0 auto;
     display: block;
-    top:  -68vh;
-    width: 36%;
-    height: 44%;
-  } */
+    top: 8vh;
+    width: 86%;
+    height: 1 4%;
+  }
 
   #resume-text {
     width: 150%;
