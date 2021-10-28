@@ -31,7 +31,7 @@ function Main() {
       <Contact />
         <Footer />
         </ScrollToTop>
-    // </div>
+       </div>
   );
 }
 
