@@ -950,7 +950,7 @@ h5 {
 
 
 
-  #me-photo {
+  /* #me-photo { */
     /* display: inline-block; 
 width: 20%;
     position: relative;
@@ -959,7 +959,7 @@ width: 20%;
     height: 40%;
     top: -80vh;           
 overflow-y: hidden;                                  */
- } 
+ /* }  */
 
 .about-speel {
     color: rgba(218, 212, 203, 0.911);

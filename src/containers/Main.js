@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "./../index.css";
 import ScrollToTop from "./ScrollToTop";
-
 import Home from "../components/Home";
 import Skills from "../components/Skills";
 import Portfolio from "../components/Portfolio";
@@ -19,19 +18,18 @@ function Main() {
 
   return (
     <div className="main-container">
-
       <ScrollToTop>
         <Home />
         {/* <div className="about-pad"> */}
         <About />
         {/* </div> */}
-      {/* <Services /> */}
-      <Skills />
-      <Portfolio />
-      <Contact />
+        {/* <Services /> */}
+        <Skills />
+        <Portfolio />
+        <Contact />
         <Footer />
-        </ScrollToTop>
-       </div>
+      </ScrollToTop>
+    </div>
   );
 }
 
