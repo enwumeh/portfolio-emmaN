@@ -84,7 +84,6 @@ const Home = () => {
         </motion.span>
         </h1>
 
-        {console.log("here:",[])}
 
 
       {/* <motion.div
