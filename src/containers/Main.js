@@ -18,20 +18,20 @@ function Main() {
   }, []);
 
   return (
-    <div className="main-container">
+    // <div className="main-container">
 
       <ScrollToTop>
         <Home />
-        <div className="about-pad">
+        {/* <div className="about-pad"> */}
         <About />
-        </div>
+        {/* </div> */}
       {/* <Services /> */}
       <Skills />
       <Portfolio />
       <Contact />
         <Footer />
         </ScrollToTop>
-    </div>
+    // </div>
   );
 }
 

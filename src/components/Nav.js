@@ -38,9 +38,9 @@ const Nav = () => {
         Emma Nwumeh
       </span> */}
       {/* Mobile Menu Icon */}
-      <div className="menu-icon" onClick={handleClick}>
+      {/* <div className="menu-icon" onClick={handleClick}>
         <i className={navClicked ? "fas fa-times" : "fas fa-bars"}></i>
-      </div>
+      </div> */}
       {/* // */}
       <ul className={ navClicked ? "nav-links active" : "nav-links" }>
         {/* <li className="link">

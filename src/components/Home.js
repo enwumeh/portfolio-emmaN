@@ -65,41 +65,33 @@ const Home = () => {
   }, [showHeadingOne, showHeadingTwo]);
 
   return (
-    
     <div className="home-container" id="home" name="home">
-      <img id="skyline" src={skyline} alt="skyline" />
+      {/* <img id="skyline" src={skyline} alt="skyline" /> */}
       <div className="home-text">
-      <h1 className="main-content">
-        Emmanuela
-        <motion.span
-          drag={true}
-          dragConstraints={{ left: 0, top: 0, bottom: 0, right: 0 }}
-          className="hand"
-          animate={{ rotate: [0, 20, 0, 20, 0, 0, 0, 0, 0, 0] }}
-          transition={{ yoyo: Infinity, duration: 1.7 }}
-        >
-          {/* <span role="img" aria-label="Hand waving">
+        <div className="main-content">
+          Emmanuela
+          <motion.span
+            drag={true}
+            dragConstraints={{ left: 0, top: 0, bottom: 0, right: 0 }}
+            className="hand"
+            animate={{ rotate: [0, 20, 0, 20, 0, 0, 0, 0, 0, 0] }}
+            transition={{ yoyo: Infinity, duration: 1.7 }}
+          >
+            <span role="img" aria-label="Hand waving">
               👋🏾
-            </span> */}
-        </motion.span>
-        </h1>
+            </span>
+          </motion.span>
+          <div id="im-emma"> Full Stack Developer </div>
+        </div>
 
-
-
-      {/* <motion.div
+        {/* <motion.div
         className="content-container"
         variants={contentVariants}
         initial="initial"
         animate="animate"
-      > */}
+        > */}
         {/* <h4 className="welcome-content">WELCOME TO MY WORLD</h4> */}
-        <br />
-        <div id="im-emma"> Full Stack Developer </div>
-
-        {/* <button className="button" onClick={() => scroll.scrollToBottom()}>
-          Contact Me
-        </button> */}
-      <Nav />
+        <Nav />
       </div>
       {/* </motion.div> */}
 
