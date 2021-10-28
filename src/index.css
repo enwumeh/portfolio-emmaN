@@ -184,10 +184,9 @@ h5 {
 .home-container {
   font-family: "Varela Round", sans-serif;
   /* display: inline-block; */
-  color: rgba(255, 255, 255, 0.836);
+  color: rgba(233, 10, 10, 0.836);
   background-size: cover;
   background-image: url(./images/pinkskyline.jpeg);
-  background-blend-mode: lighten;
   height: 100%;
   width: 100%;
   min-height: 100vh;

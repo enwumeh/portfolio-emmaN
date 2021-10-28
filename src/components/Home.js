@@ -4,7 +4,7 @@ import "./../index.css";
 import { motion } from "framer-motion";
 // import { animateScroll as scroll } from "react-scroll";
 import Nav from "../components/Nav";
-import skyline from "../images/pinkskyline.jpeg";
+// import skyline from "../images/pinkskyline.jpeg";
 
 // const contentVariants = {
 //   initial: {
