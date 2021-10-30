@@ -68,10 +68,10 @@ h5 {
    position: relative; 
   left: -15%;
   /* text-align: center; */
-  padding-top: 65px;
+  padding-top: 5px;
   line-height: 260%;
   color: rgb(224, 217, 197);
-  font-size: 13px;  
+  font-size: 15px;  
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -154,7 +154,7 @@ h5 {
   align-items: center;
   justify-content: center;
   overflow: hidden; */
-  height: 70%;
+  height: 68%;
   width: 50%;
    /* width: 20%;
   position: relative;
@@ -958,7 +958,7 @@ h5 {
   text-align: center;
   font-family: OCR A Std, monospace;
   color: rgb(219 187 166);
-  font-size: 2.5vh;
+  font-size: 3.7vh;
 }
 
 /* Media Queries */
