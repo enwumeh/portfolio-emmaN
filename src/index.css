@@ -160,10 +160,25 @@ h5 {
   top: 30%;
   font-size: 22px;
   /* box-shadow: 20px 20px 20px rgb(151, 76, 76); */
-  box-shadow: 3px 3px 3px rgb(143, 125, 125);
+  /* box-shadow: 3px 3px 3px rgb(143, 125, 125); */
   /* text-shadow: 2px 2px #e7e1e1; */
+  color: #fff;
+  text-shadow:
+    0 0 7px #512c13,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 
 }
+
+
 .nav-links .anchor:hover {
   color: white;
 }
