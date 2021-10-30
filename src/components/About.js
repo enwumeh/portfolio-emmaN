@@ -14,9 +14,7 @@ const About = () => {
     >
       <div className="me">
         <h1 className="heading" id="about-heading">About me</h1>
-        <div id="me-div">
-          <img id="me-photo" src={photo} alt="me" />
-        </div>
+        <div>
         <p className="about-speel">
           Hello! I’m Emma and I am a full stack developer who enjoys creating
           unique experiences from scratch. I graduated from Washington
@@ -34,13 +32,16 @@ const About = () => {
           is something I have been excited about during my journey.
             Thanks for listening to my story! I’d love to stay connected :)
             </span>
-        
+            
         <br></br>
         <a className="email-link-about" href="#Contact-me">
           Reach out!
           </a>
-          </p>
-       
+        </p>
+        </div>
+          <div id="me-div">
+          <img id="me-photo" src={photo} alt="me" />
+        </div>
       </div>
     </section>
   );

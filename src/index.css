@@ -37,10 +37,22 @@ h5 {
   text-decoration: none;
 }
 .about-container {
-  text-align: center;
+
+  width: 100%;
+   height: 100%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  /* text-align: center;
   margin: 0 auto;
   color: rgb(59, 60, 60);
-  position: relative;
+  position: relative; */
   /* top: vh; */
 }
 
@@ -49,14 +61,29 @@ h5 {
 } */
 
 .about-speel {
-  width: 35%;
-  margin: 0 auto;
+  width: 40%;
+  /* top: 304px; */
+   /* margin: 0 auto; */
   float: right;
-  position: relative;
+   position: relative; 
   left: -15%;
+  /* text-align: center; */
   padding-top: 65px;
   line-height: 260%;
-  font-size: 13px;
+  
+  font-size: 13px;  
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+
+
+
+
+  /* width: 600px;  */
+  /* float: left; */
 }
 
 .email-link-about {
@@ -81,33 +108,61 @@ h5 {
 }
 
 .me {
-  padding: 20px;
+  /* padding: 20px;
   color: rgb(210 194 194);
   font-size: 24px;
   position: relative;
   display: inline-block;
-  width: 90%;
+  width: 90%; */
+  width: 100%;
+  /* height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; */
+  /* justify-content: center; */
+  /* width: 80vw;
+   margin-top: 10vh;
+  display: flex;
+  justify-content: space-between; */
   /* top: 4vh; */
 }
 
-.me-div {
-  display: inline-block;
-  width: 200%;
-  height: 10%;
+
+.me {
+  width: 100%;
+  /* float: right; */
+
 }
 
-#me-photo {
+#me-div  {
   /* display: inline-block; */
-  width: 20%;
-  position: relative;
-  float: left;
-  display: block;
-  /* height: 10%; */
-  left: 20%;
-  top: 8.5vh;
-  overflow-y: hidden;
-  object-position: 19px 4px 8px;
+  width: 50%;
+  height: 100%; 
+  float: right;
+    /* width: 50%;
+      display: flex; 
+    align-items: center;
+    justify-content: center; */
+    /* overflow: hidden;  */
 }
+
+ #me-photo {
+   
+  /* ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; */
+  height: 70%;
+  width: 50%;
+   /* width: 20%;
+  position: relative;
+  /* float: left; */
+  display: block; 
+  object-fit: cover;
+  /*  */
+  left: 20%;
+} 
 /* About */
 
 /* Nav */
@@ -184,7 +239,7 @@ h5 {
 
 
 .nav-links .anchor:hover {
-  color: white;
+  color: rgb(224, 203, 99);
 }
 
 #skyline {
@@ -207,7 +262,6 @@ h5 {
 .home-container {
   font-family: "Varela Round", sans-serif;
   /* display: inline-block; */
-  color: rgba(233, 10, 10, 0.836);
   background-size: cover;
   background-image: url(./images/pinkskyline.jpeg);
   height: 100%;
@@ -900,6 +954,7 @@ h5 {
 
 .heading {
   margin: 2rem 0;
+  text-align: center;
   font-family: OCR A Std, monospace;
   color: rgb(219 187 166);
   font-size: 2.5vh;
@@ -984,12 +1039,12 @@ width: 20%;
 overflow-y: hidden;                                  */
  /* }  */
 
-.about-speel {
+/* .about-speel {
     color: rgba(218, 212, 203, 0.911);
     width: 50%;
     font-size: 2vh;
     left: -5vh;
-  }
+  } */
   .nav-links {
     color: rgb(201, 191, 201);
   }
@@ -1080,10 +1135,10 @@ overflow-y: hidden;                                  */
   }
 
   .me {
-    position: relative;
+    /* position: relative;
     text-align: center;
     margin: 0 auto;
-    color: rgb(226, 202, 202);
+    color: rgb(226, 202, 202); 
   }
 
   .nav-links .anchor {
@@ -1137,9 +1192,9 @@ overflow-y: hidden;                                  */
     font-size: 0.7rem;
   }
 
-  .about-speel {
+  /* .about-speel {
     font-size: 10px;
-  }
+  } */
   /* .main-content {
     font-size: 2rem;
   } */
@@ -1194,11 +1249,11 @@ overflow-y: hidden;                                  */
 /* 395*/
 
 @media screen and (max-width: 395px) {
-  .about-speel {
+  /* .about-speel {
     width: 80%;
     font-size: 1.5vh;
     line-height: 2.4vh;
-  }
+  } */
   .main-container {
     height: 90%;
   }
@@ -1243,15 +1298,14 @@ overflow-y: hidden;                                  */
   }
 }
 @media screen and (max-width: 295px) {
-  .about-speel {
+  /* .about-speel {
     font-size: 0.9rem;
     width: 245%;
     line-height: 19px;
     top: 1rem;
     right: 80vh;
-    color: rgb(0, 255, 55);
     margin: 0 auto;
-  }
+  } */
 
   .projects {
     width: 60rem;
@@ -1266,13 +1320,13 @@ overflow-y: hidden;                                  */
     width: 88%;
     padding: 2rem;
   }
-  #me-photo {
+  /* #me-photo {
     margin: 0 auto;
     display: block;
     top: 8vh;
     width: 86%;
     height: 1 4%;
-  }
+  } */
 
   #resume-text {
     width: 150%;
