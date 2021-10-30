@@ -1,6 +1,7 @@
 import React from "react";
 import "./../index.css";
 import photo from "../images/me-photo.jpeg";
+import { Link } from "react-scroll";
 
 const About = () => {
 
@@ -31,12 +32,11 @@ const About = () => {
           behavior and software, and exploring that through building interfaces
           is something I have been excited about during my journey.
             Thanks for listening to my story! I’d love to stay connected :)
-            </span>
+            </span>{"   "}
             
-        <br></br>
-        <a className="email-link-about" href="#Contact-me">
+       <Link to="contact" className="email-link-about">
           Reach out!
-          </a>
+          </Link>
         </p>
         </div>
           <div id="me-div">

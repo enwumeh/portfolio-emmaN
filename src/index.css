@@ -70,7 +70,7 @@ h5 {
   /* text-align: center; */
   padding-top: 65px;
   line-height: 260%;
-  
+  color: rgb(224, 217, 197);
   font-size: 13px;  
   display: block;
   margin-block-start: 1em;
@@ -88,9 +88,10 @@ h5 {
 
 .email-link-about {
   text-decoration: none;
+  text-align: center;
   color: rgb(205, 190, 178);
   font-weight: bold;
-  font-size: 1.8vh;
+  font-size: 1.9vh;
   position: relative;
 }
 
