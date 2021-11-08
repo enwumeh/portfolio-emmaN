@@ -69,6 +69,7 @@ h5 {
 .read_more  {
   display: none;
 }
+
 .about-speel {
   /* width: 800px; */
 	margin:0 auto;
@@ -78,16 +79,14 @@ h5 {
   /* text-align: center; */
   padding: 5vh;
   /*  */
-
-    
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   color: rgb(224, 217, 197);
-  font-size: 20px;
-  line-height: 260%;
+  font-size: 13px;
+  line-height: 120%;
 
 
 
