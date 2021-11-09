@@ -759,7 +759,7 @@ h5 {
   box-shadow: 3px 2px 10px gray;
   border-radius: 20px;
   flex-direction: column;
-  width: 30rem;
+  width: 100%;
   /* background: #e7dddd5c; */
   height: 9rem;
   margin: 1rem;
@@ -1005,6 +1005,11 @@ h5 {
     top: 20%;
   }
 
+  /* .home-container {
+    position: relative;
+    z-index: -2;
+  } */
+
   /* #read_more {
     display: block;
   } */
@@ -1054,11 +1059,7 @@ h5 {
     top: 25%;
     position: absolute;
   }
-  .home-container {
-    flex-direction: column;
-    position: relative;
-    z-index: -2;
-  } */
+   */
   /* .content-container {
     padding-top: 5rem;
     align-items: center;

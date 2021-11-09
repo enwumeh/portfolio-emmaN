@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from "./../images/enResume8-1.pdf";
+import resume from "./../images/enResume10-1.pdf";
 
 
 const Download = () => {
