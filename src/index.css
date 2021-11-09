@@ -79,8 +79,8 @@ h5 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   color: rgb(224, 217, 197);
-  font-size: 25px;
-  line-height: 120%;
+  font-size: 15px;
+  line-height: 150%;
 
   /* width: 600px;  */
   /* float: left; */
@@ -745,7 +745,7 @@ h5 {
 
 .cards-container {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
