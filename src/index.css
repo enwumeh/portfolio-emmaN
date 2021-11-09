@@ -40,20 +40,14 @@ h5 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-
-
-
-  width: 100%;
+  margin-top: 10vh;
+  justify-content: space-between;
+  /* width: 80vw; */
     /* height: 100%;  */
   /* display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;  */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   
   /* text-align: center;
   margin: 0 auto;
@@ -62,9 +56,9 @@ h5 {
   /* top: vh; */
 }
 
-#read-more {
+/* #read-more {
   /* display: none; */
-}
+
 
 .read_more  {
   display: none;
@@ -160,7 +154,7 @@ h5 {
   /* width: 50%;
   height: 100%; 
   float: right; */
-
+  /* top: 20%; */
   width: 50%;
     display: flex;
     align-items: center;
@@ -174,21 +168,15 @@ h5 {
 }
 
  #me-photo {
-   
-  /* ;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden; */
-  height: 68%;
+  overflow: hidden; 
+  height: 60%;
   width: 50%;
-   /* width: 20%;
   position: relative;
-  /* float: left; */
   display: block; 
   object-fit: cover;
-  /*  */
-  left: 20%;
 } 
 /* About */
 
@@ -1245,6 +1233,20 @@ overflow-y: hidden;                                  */
     font-size: 1.2rem;
   }
 
+  #me-div {
+    width: 100%;
+  }
+
+
+  .me {
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-content:center; */
+  }
+  .main-text {
+    width: 100%;
+
+  }
   .hand {
     font-size: 1.8rem;
   }
@@ -1271,6 +1273,14 @@ overflow-y: hidden;                                  */
     left: -7vh;
   } */
 
+  .about-container {
+    flex-direction: column-reverse;
+    align-items: center
+  }
+
+  #me-div .main-text {
+width: 100%;
+  }
   /* #me-photo {
     top: -55vh;
     width: 20vh;
@@ -1295,9 +1305,9 @@ overflow-y: hidden;                                  */
     font-size: 1.5vh;
     line-height: 2.4vh;
   } */
-  .main-container {
+  /* .main-container {
     height: 90%;
-  }
+  } */
   .main-content {
     font-size: 3.8vh;
     text-align: center;
