@@ -91,10 +91,11 @@ const Home = () => {
         animate="animate"
         > */}
         {/* <h4 className="welcome-content">WELCOME TO MY WORLD</h4> */}
+        {/* <Nav /> */}
         <Nav />
       </div>
-      {/* </motion.div> */}
 
+      {/* </motion.div> */}
       {/* <motion.div
         className="svg-container"
         animate={{ translateY: [-20, 0, -20, 0] }}
@@ -102,6 +103,7 @@ const Home = () => {
       >
         <img className="svg" src={me} alt="" />
       </motion.div>  */}
+       
     </div>
   );
 };
