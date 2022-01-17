@@ -68,7 +68,7 @@ const Nav = () => {
             offset={0}
             duration={500}
           >
-            ABOUT
+            ABOUT ME
           </Link>
         </li>
 
@@ -113,7 +113,7 @@ const Nav = () => {
             offset={0}
             duration={500}
           >
-            PORTFOLIO
+           PROJECTS
           </Link>
         </li>
 
@@ -129,7 +129,7 @@ const Nav = () => {
             offset={0}
             duration={500}
           >
-            CONTACT
+            CONTACT ME
           </Link>
         </li>
       </ul>
