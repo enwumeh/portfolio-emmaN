@@ -22,10 +22,12 @@ const Portfolio = () => {
       <h1 className="heading">My Work:</h1>
       <div className="projects-container">
         <motion.div
+         
           className="projects"
           variants={boxVariants}
           whileHover="hover"
         >
+          
           <a
             rel="noopener noreferrer"
             target="_blank"
@@ -33,6 +35,7 @@ const Portfolio = () => {
           >
             <div className="project-images" id="crimeSpotter"></div>
           </a>
+          <div className ="overlay">
 
           <div className="project-links">
             <div className="text">
@@ -61,13 +64,15 @@ const Portfolio = () => {
                 ></i>
               </a>
             </div>
-          </div>
+            </div>
+            </div>
         </motion.div>
         <motion.div
           variants={boxVariants}
           whileHover="hover"
           className="projects"
         >
+         
           <a
             rel="noopener noreferrer"
             target="_blank"
@@ -75,6 +80,7 @@ const Portfolio = () => {
             >
             <div className="project-images" id="perfumery"></div>
           </a>
+          <div className="overlay">
           <div className="project-links">
             <div className="text">
               <h3>Essences by Emma</h3>
@@ -102,7 +108,8 @@ const Portfolio = () => {
                 ></i>
               </a>
             </div>
-          </div>
+            </div>
+           </div>
         </motion.div>
         {/* Project 2 - Shoe Store */}
         <motion.div
@@ -110,6 +117,7 @@ const Portfolio = () => {
           whileHover="hover"
           className="projects"
         >
+
           <a
             rel="noopener noreferrer"
             target="_blank"
@@ -117,6 +125,7 @@ const Portfolio = () => {
           >
             <div className="project-images" id="sportikus"></div>
           </a>
+
 
           <div className="project-links">
             <div className="text">
@@ -132,6 +141,9 @@ const Portfolio = () => {
                   {" "}
                 </i>
               </a>
+
+              <div className="overlay">
+
               <a
                 rel="noopener noreferrer"
                 href="https://sportikus.netlify.app"
@@ -145,7 +157,9 @@ const Portfolio = () => {
                 ></i>
               </a>
             </div>
-          </div>
+            </div>
+            </div>
+
         </motion.div>
         {/* Project 3 - Quiz App */}
         <motion.div
@@ -160,6 +174,8 @@ const Portfolio = () => {
           >
             <div className="project-images" id="filmFlix"></div>
           </a>
+          <div className ="overlay">
+
           <div className="project-links">
             <div className="text">
               <h3>FilmFlix</h3>
@@ -187,7 +203,8 @@ const Portfolio = () => {
                 ></i>
               </a>
             </div>
-          </div>
+            </div>
+            </div>
         </motion.div>
         {/* Project 2 - Shoe Store */}
         {/* <motion.div

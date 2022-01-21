@@ -560,6 +560,19 @@ h5 {
   height: 70%;
 }
 
+/* .overlay{
+  background-color: green;
+  color: pink;
+  z-index: 2;
+
+} */
+
+/* .nav-links .anchor:hover { */
+
+/* .projects:hover {
+   background-color: red; 
+} */
+
 /* Images */
 #crimeSpotter {
   background-image: url("./images/crimes.png");
@@ -1171,6 +1184,7 @@ h5 {
     width: 100vw;
     margin: 0.4rem;
     font-size: 1.2rem;
+
   }
 
   .anchor.active {
@@ -1205,8 +1219,10 @@ h5 {
 }
 
 .timeline-container {
-  top: 2000px;
+  top: 100px;
+  min-height: 700px;
  position: relative;
+ 
 }
 
   /* .me {
