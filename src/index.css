@@ -104,7 +104,8 @@ h5 {
 }
 
 .main-container {
-  height: 100vh;
+  /* height: 100vh; */
+  width: 200%;
   /* padding-top: 100px; */
 }
 
@@ -1203,10 +1204,10 @@ h5 {
     align-items: center;
 }
 
-/* .timeline-container {
+.timeline-container {
   top: 2000px;
- 
-} */
+ position: relative;
+}
 
   /* .me {
     display: flex;
@@ -1337,7 +1338,7 @@ h5 {
   .home-container {
     position: relative;
     height: 133vh;
-    width: 57vh;
+    width: 100%;
   }
   .heading {
     font-size: 1.3rem;
