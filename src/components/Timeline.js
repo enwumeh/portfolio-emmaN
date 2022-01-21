@@ -95,7 +95,7 @@ const Timeline = () => {
         }}
         id="timeline-card"
         items={items}
-        mode="VERTICAL"
+        mode="HORIZONTAL"
         // itemWidth="400px"
         // cardWidth="30px"
         style={{fontSize:"993px", width: "900px", margin: "0 auto", textAlign: "center"  }}
