@@ -732,11 +732,7 @@ h5 {
   min-height: 100vh;
 }
 
-/* #timeline-card {
-width: 20px;
-height: 200px;
-color: blue;
-} */
+
 
 /* .profile-image {
   margin: 1rem;
@@ -1207,11 +1203,10 @@ color: blue;
     align-items: center;
 }
 
-.timeline-container {
+/* .timeline-container {
   top: 2000px;
-  /* position: relative; */
-  /* margin: 0 auto; */
-}
+ 
+} */
 
   /* .me {
     display: flex;

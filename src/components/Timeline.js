@@ -65,7 +65,7 @@ const Timeline = () => {
       title: "Early 2022",
       cardTitle: "Get first full time job as a developer",
       // url: "http://www.history.com",
-      // cardSubtitle: "its peanuts!!..",
+      cardSubtitle: "Secure full time position as a software developer",
       // cardDetailedText: "ermmmmm..",
       // media: {
       //   type: "IMAGE",
@@ -81,7 +81,8 @@ const Timeline = () => {
       className="timeline-container"
       name="timeline"
       id="timeline"
-      // style={{  height: "900px", margin: "0 auto"}}
+      style={{ width: "610px", margin: "0 auto", "textAlign": "center"}}
+
     >
       <h1 className="heading">Timeline</h1>
       <Chrono
@@ -94,10 +95,10 @@ const Timeline = () => {
         }}
         id="timeline-card"
         items={items}
-        mode="HORIZONTAL"
+        mode="VERTICAL"
         // itemWidth="400px"
         // cardWidth="30px"
-        style={{ width: "500px", height: "500px", "textAlign": "center", margin: "0 auto"  }}
+        style={{fontSize:"993px", width: "900px", margin: "0 auto", textAlign: "center"  }}
       />
     </div>
   );
