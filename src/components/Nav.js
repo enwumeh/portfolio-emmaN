@@ -72,20 +72,20 @@ const Nav = () => {
           </Link>
         </li>
 
-        {/* <li className="link">
+        <li className="link">
           <Link
             className="anchor"
             activeClass="active"
-            to="services"
+            to="timeline"
             spy={true}
             smooth={true}
             delay={100}
             offset={0}
             duration={500}
           >
-            Services
+            PROGRESS TRACKER
           </Link>
-        </li> */}
+        </li>
 
         <li className="link">
           <Link

@@ -12,10 +12,10 @@ body {
   margin: 0 auto;
   font-family: "Ubuntu", sans-serif;
 }
-/* h3{
+h3{
   color: #ebbba0;
   font-size: 2.8vh;
-} */
+}
 
 h5 {
   color: #e8e9e9;
@@ -732,6 +732,12 @@ h5 {
   min-height: 100vh;
 }
 
+/* #timeline-card {
+width: 20px;
+height: 200px;
+color: blue;
+} */
+
 /* .profile-image {
   margin: 1rem;
   box-shadow: 6px 6px 10px gray;
@@ -1199,6 +1205,12 @@ h5 {
   .about-container {
     flex-direction: column-reverse;
     align-items: center;
+}
+
+.timeline-container {
+  top: 2000px;
+  /* position: relative; */
+  /* margin: 0 auto; */
 }
 
   /* .me {

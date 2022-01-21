@@ -26,8 +26,8 @@ const Skills = () => {
           <p>Ruby on Rails</p>
         </li>
         <li>
-          <img src="https://img.icons8.com/color/452/mongodb.png" className="skills-img" alt="mongodb"></img>
-          <p>MongoDB</p>
+          <img src="https://www.creative-tim.com/blog/content/images/wordpress/2020/03/node-js-736399_1280.png" className="skills-img" alt="node"></img>
+          <p>Node JS</p>
         </li>
         <li>
           <img src="https://www.pinclipart.com/picdir/middle/519-5199224_postgresql-logo-png-transparent-clipart.png" className="skills-img" alt="github"></img>

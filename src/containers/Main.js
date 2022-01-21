@@ -6,7 +6,7 @@ import Skills from "../components/Skills";
 import Portfolio from "../components/Portfolio";
 import About from "../components/About";
 import Contact from "../components/Contact";
-// import Services from "../components/Services";
+import Timeline from "../components/Timeline";
 import Footer from "../components/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -23,7 +23,7 @@ function Main() {
         {/* <div className="about-pad"> */}
         <About />
         {/* </div> */}
-        {/* <Services /> */}
+        <Timeline />
         <Skills />
         <Portfolio />
         <Contact />
