@@ -81,7 +81,7 @@ const Timeline = () => {
       className="timeline-container"
       name="timeline"
       id="timeline"
-      style={{ width: "610px", margin: "0 auto", "textAlign": "center"}}
+      style={{ margin: "0 auto", "textAlign": "center"}}
 
     >
       <h1 className="heading">Timeline</h1>
