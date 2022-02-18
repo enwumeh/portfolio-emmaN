@@ -85,7 +85,7 @@ const Portfolio = () => {
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://perfumerypern.herokuapp.com/"
+                  href="https://github.com/enwumeh/perfumery"
                 >
                   <i className="fab fa-github" title="github repo" id="github">
                     {" "}
@@ -93,7 +93,7 @@ const Portfolio = () => {
                 </a>
                 <a
                   rel="noopener noreferrer"
-                  href="https://github.com/enwumeh/perfumery"
+                  href="https://perfumerypern.herokuapp.com/"
                   target="_blank"
                 >
                   {" "}
